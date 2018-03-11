@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63197ABC2055070E00015A24 /* SLKMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197ABA2055070E00015A24 /* SLKMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AD92055072E00015A24 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AC32055072E00015A24 /* SLKInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197ADA2055072E00015A24 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AC42055072E00015A24 /* SLKInputAccessoryView.m */; };
+		63197ADB2055072E00015A24 /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AC52055072E00015A24 /* SLKTextInput+Implementation.m */; };
+		63197ADC2055072E00015A24 /* SLKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AC62055072E00015A24 /* SLKTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197ADD2055072E00015A24 /* SLKTextInputbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AC72055072E00015A24 /* SLKTextInputbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197ADE2055072E00015A24 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AC82055072E00015A24 /* SLKTextInputbar.m */; };
+		63197ADF2055072E00015A24 /* SLKTextView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AC92055072E00015A24 /* SLKTextView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE02055072E00015A24 /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197ACA2055072E00015A24 /* SLKTextView+SLKAdditions.m */; };
+		63197AE12055072E00015A24 /* SLKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197ACB2055072E00015A24 /* SLKTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE22055072E00015A24 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197ACC2055072E00015A24 /* SLKTextView.m */; };
+		63197AE32055072E00015A24 /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197ACD2055072E00015A24 /* SLKTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE42055072E00015A24 /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197ACE2055072E00015A24 /* SLKTextViewController.m */; };
+		63197AE52055072E00015A24 /* SLKTypingIndicatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197ACF2055072E00015A24 /* SLKTypingIndicatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE62055072E00015A24 /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AD02055072E00015A24 /* SLKTypingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE72055072E00015A24 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AD12055072E00015A24 /* SLKTypingIndicatorView.m */; };
+		63197AE82055072E00015A24 /* SLKUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AD22055072E00015A24 /* SLKUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AE92055072E00015A24 /* UIResponder+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AD32055072E00015A24 /* UIResponder+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AEA2055072E00015A24 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AD42055072E00015A24 /* UIResponder+SLKAdditions.m */; };
+		63197AEB2055072E00015A24 /* UIScrollView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AD52055072E00015A24 /* UIScrollView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AEC2055072E00015A24 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AD62055072E00015A24 /* UIScrollView+SLKAdditions.m */; };
+		63197AED2055072E00015A24 /* UIView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63197AD72055072E00015A24 /* UIView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63197AEE2055072E00015A24 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63197AD82055072E00015A24 /* UIView+SLKAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63197AB72055070E00015A24 /* SLKMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLKMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63197ABA2055070E00015A24 /* SLKMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessages.h; sourceTree = "<group>"; };
+		63197ABB2055070E00015A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63197AC32055072E00015A24 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		63197AC42055072E00015A24 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		63197AC52055072E00015A24 /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		63197AC62055072E00015A24 /* SLKTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
+		63197AC72055072E00015A24 /* SLKTextInputbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInputbar.h; sourceTree = "<group>"; };
+		63197AC82055072E00015A24 /* SLKTextInputbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextInputbar.m; sourceTree = "<group>"; };
+		63197AC92055072E00015A24 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		63197ACA2055072E00015A24 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		63197ACB2055072E00015A24 /* SLKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextView.h; sourceTree = "<group>"; };
+		63197ACC2055072E00015A24 /* SLKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextView.m; sourceTree = "<group>"; };
+		63197ACD2055072E00015A24 /* SLKTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextViewController.h; sourceTree = "<group>"; };
+		63197ACE2055072E00015A24 /* SLKTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewController.m; sourceTree = "<group>"; };
+		63197ACF2055072E00015A24 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		63197AD02055072E00015A24 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		63197AD12055072E00015A24 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		63197AD22055072E00015A24 /* SLKUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKUIConstants.h; sourceTree = "<group>"; };
+		63197AD32055072E00015A24 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		63197AD42055072E00015A24 /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		63197AD52055072E00015A24 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		63197AD62055072E00015A24 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		63197AD72055072E00015A24 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		63197AD82055072E00015A24 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63197AB32055070E00015A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63197AAD2055070E00015A24 = {
+			isa = PBXGroup;
+			children = (
+				63197AB92055070E00015A24 /* SLKMessages */,
+				63197AB82055070E00015A24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63197AB82055070E00015A24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63197AB72055070E00015A24 /* SLKMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63197AB92055070E00015A24 /* SLKMessages */ = {
+			isa = PBXGroup;
+			children = (
+				63197AC22055072E00015A24 /* Source */,
+				63197ABA2055070E00015A24 /* SLKMessages.h */,
+				63197ABB2055070E00015A24 /* Info.plist */,
+			);
+			path = SLKMessages;
+			sourceTree = "<group>";
+		};
+		63197AC22055072E00015A24 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				63197AC32055072E00015A24 /* SLKInputAccessoryView.h */,
+				63197AC42055072E00015A24 /* SLKInputAccessoryView.m */,
+				63197AC52055072E00015A24 /* SLKTextInput+Implementation.m */,
+				63197AC62055072E00015A24 /* SLKTextInput.h */,
+				63197AC72055072E00015A24 /* SLKTextInputbar.h */,
+				63197AC82055072E00015A24 /* SLKTextInputbar.m */,
+				63197AC92055072E00015A24 /* SLKTextView+SLKAdditions.h */,
+				63197ACA2055072E00015A24 /* SLKTextView+SLKAdditions.m */,
+				63197ACB2055072E00015A24 /* SLKTextView.h */,
+				63197ACC2055072E00015A24 /* SLKTextView.m */,
+				63197ACD2055072E00015A24 /* SLKTextViewController.h */,
+				63197ACE2055072E00015A24 /* SLKTextViewController.m */,
+				63197ACF2055072E00015A24 /* SLKTypingIndicatorProtocol.h */,
+				63197AD02055072E00015A24 /* SLKTypingIndicatorView.h */,
+				63197AD12055072E00015A24 /* SLKTypingIndicatorView.m */,
+				63197AD22055072E00015A24 /* SLKUIConstants.h */,
+				63197AD32055072E00015A24 /* UIResponder+SLKAdditions.h */,
+				63197AD42055072E00015A24 /* UIResponder+SLKAdditions.m */,
+				63197AD52055072E00015A24 /* UIScrollView+SLKAdditions.h */,
+				63197AD62055072E00015A24 /* UIScrollView+SLKAdditions.m */,
+				63197AD72055072E00015A24 /* UIView+SLKAdditions.h */,
+				63197AD82055072E00015A24 /* UIView+SLKAdditions.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63197AB42055070E00015A24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63197AD92055072E00015A24 /* SLKInputAccessoryView.h in Headers */,
+				63197ADF2055072E00015A24 /* SLKTextView+SLKAdditions.h in Headers */,
+				63197ABC2055070E00015A24 /* SLKMessages.h in Headers */,
+				63197ADC2055072E00015A24 /* SLKTextInput.h in Headers */,
+				63197AE62055072E00015A24 /* SLKTypingIndicatorView.h in Headers */,
+				63197AE82055072E00015A24 /* SLKUIConstants.h in Headers */,
+				63197AE92055072E00015A24 /* UIResponder+SLKAdditions.h in Headers */,
+				63197ADD2055072E00015A24 /* SLKTextInputbar.h in Headers */,
+				63197AE32055072E00015A24 /* SLKTextViewController.h in Headers */,
+				63197AEB2055072E00015A24 /* UIScrollView+SLKAdditions.h in Headers */,
+				63197AE52055072E00015A24 /* SLKTypingIndicatorProtocol.h in Headers */,
+				63197AED2055072E00015A24 /* UIView+SLKAdditions.h in Headers */,
+				63197AE12055072E00015A24 /* SLKTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63197AB62055070E00015A24 /* SLKMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63197ABF2055070E00015A24 /* Build configuration list for PBXNativeTarget "SLKMessages" */;
+			buildPhases = (
+				63197AB22055070E00015A24 /* Sources */,
+				63197AB32055070E00015A24 /* Frameworks */,
+				63197AB42055070E00015A24 /* Headers */,
+				63197AB52055070E00015A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLKMessages;
+			productName = SLKMessages;
+			productReference = 63197AB72055070E00015A24 /* SLKMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63197AAE2055070E00015A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = UP;
+				TargetAttributes = {
+					63197AB62055070E00015A24 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 63197AB12055070E00015A24 /* Build configuration list for PBXProject "SLKMessages" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63197AAD2055070E00015A24;
+			productRefGroup = 63197AB82055070E00015A24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63197AB62055070E00015A24 /* SLKMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63197AB52055070E00015A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63197AB22055070E00015A24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63197AEC2055072E00015A24 /* UIScrollView+SLKAdditions.m in Sources */,
+				63197AE72055072E00015A24 /* SLKTypingIndicatorView.m in Sources */,
+				63197AEA2055072E00015A24 /* UIResponder+SLKAdditions.m in Sources */,
+				63197ADB2055072E00015A24 /* SLKTextInput+Implementation.m in Sources */,
+				63197ADE2055072E00015A24 /* SLKTextInputbar.m in Sources */,
+				63197ADA2055072E00015A24 /* SLKInputAccessoryView.m in Sources */,
+				63197AE22055072E00015A24 /* SLKTextView.m in Sources */,
+				63197AEE2055072E00015A24 /* UIView+SLKAdditions.m in Sources */,
+				63197AE42055072E00015A24 /* SLKTextViewController.m in Sources */,
+				63197AE02055072E00015A24 /* SLKTextView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63197ABD2055070E00015A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63197ABE2055070E00015A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63197AC02055070E00015A24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLKMessages/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UP.SLKMessages;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63197AC12055070E00015A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLKMessages/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UP.SLKMessages;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63197AB12055070E00015A24 /* Build configuration list for PBXProject "SLKMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63197ABD2055070E00015A24 /* Debug */,
+				63197ABE2055070E00015A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63197ABF2055070E00015A24 /* Build configuration list for PBXNativeTarget "SLKMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63197AC02055070E00015A24 /* Debug */,
+				63197AC12055070E00015A24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63197AAE2055070E00015A24 /* Project object */;
+}
