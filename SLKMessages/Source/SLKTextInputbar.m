@@ -376,7 +376,7 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
 {
     if (self.autoHideRightButton) {
         if (self.textView.text.length == 0) {
-            return 0.0;
+            return 33.0;
         }
     }
 
