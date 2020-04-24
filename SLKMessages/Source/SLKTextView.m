@@ -506,18 +506,19 @@ SLKPastableMediaType SLKPastableMediaTypeFromNSString(NSString *string)
 {
     NSString *contentSizeCategory = [[UIApplication sharedApplication] preferredContentSizeCategory];
     
-    [self setFontName:font.fontName pointSize:font.pointSize withContentSizeCategory:contentSizeCategory];
+    [self setFont:font withContentSizeCategory:contentSizeCategory];
     
     self.initialFontSize = font.pointSize;
 }
 
-- (void)setFontName:(NSString *)fontName pointSize:(CGFloat)pointSize withContentSizeCategory:(NSString *)contentSizeCategory
+- (void)setFont:(UIFont *)font withContentSizeCategory:(NSString *)contentSizeCategory
 {
+    CGFloat pointSize = font.pointSize;
     if (self.isDynamicTypeEnabled) {
         pointSize += SLKPointSizeDifferenceForCategory(contentSizeCategory);
     }
     
-    UIFont *dynamicFont = [UIFont fontWithName:fontName size:pointSize];
+    UIFont *dynamicFont = [font fontWithSize:pointSize];//[UIFont fontWithName:fontName size:pointSize];
     
     [super setFont:dynamicFont];
     
@@ -535,7 +536,7 @@ SLKPastableMediaType SLKPastableMediaTypeFromNSString(NSString *string)
     
     NSString *contentSizeCategory = [[UIApplication sharedApplication] preferredContentSizeCategory];
 
-    [self setFontName:self.font.fontName pointSize:self.initialFontSize withContentSizeCategory:contentSizeCategory];
+    [self setFont:self.font withContentSizeCategory:contentSizeCategory];
 }
 
 - (void)setTextAlignment:(NSTextAlignment)textAlignment
@@ -906,7 +907,7 @@ SLKPastableMediaType SLKPastableMediaTypeFromNSString(NSString *string)
     
     NSString *contentSizeCategory = notification.userInfo[UIContentSizeCategoryNewValueKey];
     
-    [self setFontName:self.font.fontName pointSize:self.initialFontSize withContentSizeCategory:contentSizeCategory];
+    [self setFont:self.font withContentSizeCategory:contentSizeCategory];
     
     NSString *text = [self.text copy];
     
